@@ -28,5 +28,7 @@
                 Console.WriteLine("Die Zahl sollte zwischen 1 und 100 sein.");
                 continue;
            }
+
+            attempts++;
     }
 }
