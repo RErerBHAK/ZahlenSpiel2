@@ -11,5 +11,12 @@
 
         int guess = 0;
         do
+        {
+           Console.Write("Gib deine Schätzung ein (bitte ein Zahl zwischen 1 und 100): ");
+           string input = Console.ReadLine();
+
+ 
+
+           if (!int.TryParse(input, out guess))
     }
 }
