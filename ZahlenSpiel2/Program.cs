@@ -22,5 +22,11 @@
                 Console.WriteLine("Die Eingabe ist leider ungültig :( Bitte gib eine ganze Zahl ein.");
                 continue;
            }
+            
+           if (guess < 1 || guess > 100)
+           {
+                Console.WriteLine("Die Zahl sollte zwischen 1 und 100 sein.");
+                continue;
+           }
     }
 }
