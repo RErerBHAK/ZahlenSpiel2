@@ -18,5 +18,9 @@
  
 
            if (!int.TryParse(input, out guess))
+           {
+                Console.WriteLine("Die Eingabe ist leider ungültig :( Bitte gib eine ganze Zahl ein.");
+                continue;
+           }
     }
 }
